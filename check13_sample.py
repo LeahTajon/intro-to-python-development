@@ -1,7 +1,7 @@
 
 """
 File: check13_sample.py
-Author: Brother Burton
+Author: Leah Tajon
 
 Purpose: Demonstrates a basic procedure in a function.
 """
