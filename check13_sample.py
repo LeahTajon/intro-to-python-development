@@ -1,27 +1,32 @@
 
 """
-File: check13_sample.py
+File: w13_Checkpoint.py
 Author: Leah Tajon
 
-Purpose: Demonstrates a basic procedure in a function.
+Overview: This checkpoint is designed to help you practice writing basic functions.0
 """
 
+# 01    | display_regular - Receives a string and prints it out, exactly as received.
 def display_regular(message):
-    print(message)
+    msg = message
+    return msg
 
-def display_uppercase(message):
-    # This could be done on one line, without creating a new variable new_message
-    new_message = message.upper()
-    print(new_message)
+# 02    | display_uppercase - Receives a string, converts it to upper case, and then prints it out.
+def display_uppercase(message2):
+    msg2 = message2.upper()
+    return msg2
 
-def display_lowercase(message):
-    new_message = message.lower()
-    print(new_message)
+# 03    | display_lowercase - Receives a string, converts it to lower case, and then prints it out.
+def display_lowercase(message3):
+    msg3 = message3.lower()
+    return msg3
 
-# The regular flow of the program starts here...
-user_message = input("What is your message? ")
+input_msg = input('What is your message? ')
 
-# Pass this variable to each of the functions above to do their work
-display_regular(user_message)
-display_uppercase(user_message)
-display_lowercase(user_message)
+regular_msg = display_regular(input_msg)
+uppercase_msg = display_uppercase(input_msg)
+lowercase_msg = display_lowercase(input_msg)
+
+print(regular_msg)
+print(uppercase_msg)
+print(lowercase_msg)
